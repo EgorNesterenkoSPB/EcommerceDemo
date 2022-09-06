@@ -8,7 +8,6 @@ protocol ViewToPresenterProductDetailsProtocol {
     var interactor:PresenterToInteractorProductDetailsProtocol? {get set}
     func userTapBackButton(navController:UINavigationController?)
     func numberOfRowsAtTopSection() -> Int
-    func setCarouselCell(collectionView:UICollectionView, forRowAt indexPath:IndexPath, images:[String]) -> CarouselCollectionViewCell
     func setTopCell(collectionView:UICollectionView,forRowAt indexPath:IndexPath) -> TopCollectionViewCell
     func carouselCellSize() -> CGSize
     func topCellSize(width:CGFloat) -> CGSize

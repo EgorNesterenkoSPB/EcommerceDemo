@@ -20,17 +20,6 @@ final class ProductDetailsPresenter:ViewToPresenterProductDetailsProtocol{
         topCellslabel.count
     }
     
-    func setCarouselCell(collectionView: UICollectionView, forRowAt indexPath: IndexPath, images:[String]) -> CarouselCollectionViewCell {
-        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CarouselCollectionViewCell.identefier, for: indexPath) as? CarouselCollectionViewCell {
-            cell.imageURL = URL(string: images[indexPath.row])
-            DispatchQueue.main.async {
-                collectionView.reloadData()
-            }
-            return cell
-        }
-        return CarouselCollectionViewCell()
-    }
-    
     func setTopCell(collectionView: UICollectionView, forRowAt indexPath: IndexPath) -> TopCollectionViewCell {
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TopCollectionViewCell.identefier, for: indexPath) as? TopCollectionViewCell {
             cell.nameLabel.text = topCellslabel[indexPath.row]

@@ -32,7 +32,6 @@
 		54A2287828C0CC1800E3D73E /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2287728C0CC1800E3D73E /* UIColor + Extension.swift */; };
 		54A2287A28C102D400E3D73E /* FilteredLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2287928C102D400E3D73E /* FilteredLauncher.swift */; };
 		54A7791128B5A70300D1FA7E /* BestSellerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A7791028B5A70300D1FA7E /* BestSellerCollectionViewCell.swift */; };
-		54E42E4A28BF6E860064899C /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E42E4928BF6E860064899C /* CarouselCollectionViewCell.swift */; };
 		54E7825628B0E3470054D9C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E7825528B0E3470054D9C1 /* AppDelegate.swift */; };
 		54E7825828B0E3470054D9C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E7825728B0E3470054D9C1 /* SceneDelegate.swift */; };
 		54E7825F28B0E34A0054D9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E7825E28B0E34A0054D9C1 /* Assets.xcassets */; };
@@ -73,7 +72,6 @@
 		54A2287728C0CC1800E3D73E /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		54A2287928C102D400E3D73E /* FilteredLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredLauncher.swift; sourceTree = "<group>"; };
 		54A7791028B5A70300D1FA7E /* BestSellerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerCollectionViewCell.swift; sourceTree = "<group>"; };
-		54E42E4928BF6E860064899C /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		54E7825228B0E3470054D9C1 /* EcommerceTestProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceTestProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E7825528B0E3470054D9C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54E7825728B0E3470054D9C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 				5418D51A28B29CF7002D43FB /* ProductDetailsPresenter.swift */,
 				5418D51C28B29D1B002D43FB /* ProductDetailsInteractor.swift */,
 				5418D51E28B29D3D002D43FB /* ProductDetailtsRouter.swift */,
-				54E42E4928BF6E860064899C /* CarouselCollectionViewCell.swift */,
 				54A2287328BFD52300E3D73E /* TopCollectionViewCell.swift */,
 				54A2287528C071FA00E3D73E /* ShopCollectionViewCell.swift */,
 			);
@@ -354,7 +351,6 @@
 				54E7825828B0E3470054D9C1 /* SceneDelegate.swift in Sources */,
 				54248DCE28C3481D0041449E /* ProductCartCollectionViewCell.swift in Sources */,
 				5418D51328B2095E002D43FB /* CategoryCollectionViewCell.swift in Sources */,
-				54E42E4A28BF6E860064899C /* CarouselCollectionViewCell.swift in Sources */,
 				54A2287828C0CC1800E3D73E /* UIColor + Extension.swift in Sources */,
 				54E7827128B107970054D9C1 /* MainInteractor.swift in Sources */,
 				54E7826F28B107860054D9C1 /* MainPresenter.swift in Sources */,
